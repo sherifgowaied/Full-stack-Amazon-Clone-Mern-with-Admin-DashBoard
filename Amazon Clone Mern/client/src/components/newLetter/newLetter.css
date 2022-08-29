@@ -1,0 +1,57 @@
+.newLetterContainer{
+    position: static;
+    width: 100%;
+    
+    top:1700px;
+    left:0;
+    height: 38vh;
+    background-color: #232f3e;
+    display: flex;
+    padding:25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    
+}
+.amzLogo{
+    width:150px;;
+    position: relative;
+    
+    
+    
+}
+.nlTitle{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+.desc{
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+
+}
+.iputContainer{
+    width: 50%;
+    height: 40px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+
+}
+.nlInput{
+    border: none;
+    flex: 8;
+    padding-left: 10px;
+    padding:10px;
+    border:1px solid  #ffe093;
+}
+.nlBtn{
+flex:1;
+height: 40px;
+background-color: #f08804;;
+color:black;
+border:none;
+}

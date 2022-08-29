@@ -1,0 +1,29 @@
+.products{
+    position: absolute;
+    top:925px;
+    padding:10px;
+    left:0;
+    /* height: 100%;
+    width: 100%; */
+    display: flex;
+    flex-wrap: wrap;
+    color:black;
+    z-index: 9;
+    background-color: #e0e0e0;
+    
+
+}
+.productsHome{
+    position: static;
+      
+      padding-top:925px;
+      
+      /* height: 100%;
+      width: 100%; */
+      display: flex;
+      flex-wrap: wrap;
+      color:black;
+     
+      background-color: #e0e0e0;
+      z-index: 88;
+  }

@@ -1,0 +1,292 @@
+@media screen and (max-width: 415px) {
+    .container {
+        width: 100%;
+  }
+  .cart{
+    position: static;
+    height: 10px;;
+    width:10px;
+    display:none;
+  }
+  .center{
+    display: none;
+  }
+  .cartIcon{
+    
+    transform: scale(0.7);
+  }
+  #cartIconR{
+    position: absolute;
+    top:0px;
+    left:80px;
+    transform: scale(1);
+  }
+  #cartTextR{
+    position: absolute;
+    font-size: 12px;
+    top:10px;
+   left:115px;
+  }
+  #zeroR{
+    position: absolute;
+    font-size: 27px;
+   left:125px;
+   bottom:13px;
+  }
+  #orderR{
+    position: absolute;
+    left:275px;
+    bottom:3px;
+    font-size: 12px;
+  }
+  #mostRight{
+    position: absolute;
+    left:155px;
+    
+   top:0.5px;
+  
+    
+  }
+  #mostRight>span{
+    font-size: 10px;
+  }
+  #RightR{
+   display:none;
+  }
+
+}
+
+
+
+.container{
+    height:60px;
+    background-color: #0F1111;
+    position: fixed;
+    width: 100vw;
+    top:0;
+    left:0;
+   z-index: 4;
+}
+.wrapper{
+    /* padding:10px 20px; */
+    position: relative;
+    max-height: 60px;
+    display:flex;
+    justify-content: space-between;
+}
+.left{
+    width:14.8%;
+    display:flex;
+    
+}
+.amazonLogo{
+    width:59%;
+    height: 40px;
+    margin-top: 12px;
+    cursor:pointer;
+    margin-left:10px;
+    background-color:#0F1111 ;
+}
+.logo{
+    display:flex;
+    /* width: 9.75%; */
+
+}
+.eg{
+    font-size:16px;
+    color:white;
+    margin-top: 14px;
+}
+.center{
+   position:absolute;
+   left: 217px;
+   width: 58%;;
+    height:60px;
+    padding:10px;
+}
+.Right{
+    /* flex:1; */
+    position: absolute;
+    right:320px;
+    top:20px;
+    
+}
+
+.deliver{
+    display:flex;
+    flex-direction: column;
+    color:white;
+    width:41%;
+    padding-left: 10px;
+    margin-top: 5px;;
+    padding:5px;
+}
+.locationIcon{
+    height:18;
+    width:15;
+}
+.EgyptFlagDiv{
+    margin-left:30px ;
+    width: 3.5%;
+    display:flex;
+}
+.Egypt{
+    position: relative;
+}
+.EgyptText{
+    position: absolute;
+    top:5px;
+    font-size: 16;
+    
+}
+.deliverText{
+    padding-left:20px;
+    font-size:14px;
+    color:#cccccc;
+
+}
+
+
+.searchBox{
+    
+    height: 40px;
+    display:flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.All{
+    height: 40px;;
+    width:42px;
+    font-size:14px;
+    background-color:  #f3f3f3;;
+    border:1px solid  #f3f3f3;
+    color:gray;
+    padding:10px;
+    position: relative;
+    
+    
+}
+.seachIconDiv{
+    height: 40px;;
+    width: 45px;;
+    background-color: #edb170;
+    
+}
+.dropDownIcon{
+    height:10px;
+    position:absolute;
+    right:8px;
+    top:7px;;
+    
+    color:black;
+}
+.searchIcon{
+    position: absolute;
+    top:20px;
+    right:20px;
+    
+   
+}
+.dropDownEgypt{
+    color:white
+}
+.MostRight{
+    width:115%;;
+    display:flex;
+    flex-direction: column;
+    height:38px;
+    margin-left:40px ;
+    color: white;
+    position:absolute;
+    left:50px;
+    bottom: 2px;
+    margin-right:3px;
+    
+}
+.hello{
+    font-size:14px;
+    display: flex;
+    
+}
+.accounts{
+    font-size:16px;
+    
+   
+}
+.dropDownEgyptList{
+    width: 13px;;
+}
+.order{
+     width:4.2%;
+    display:flex;
+    font-size: 19px;
+    flex-direction: column;
+    color: white;
+    position:absolute;
+    left:174px;
+    bottom: 1px;
+   
+
+}
+.cart{
+    /* width:150px; */
+    display:flex;
+    height:50px;
+    font-size: 19px;
+    
+    gap:3px;
+    color: white;
+    position:absolute;
+    
+    left:230px;
+    top: 1px;
+}
+.cartIcon{
+    height:26px;
+    width: 38px;
+    transform: scale(1.8);
+    margin: 0px 5px;;
+    background-color: #0F1111;
+    font-size: 3rem;
+    background-color:#0F1111 ;
+    z-index: 1;
+    margin-bottom: 5px;;
+    margin-right: 5px;;
+}
+.cartText{
+    font-size: 16px;;
+    padding-top:10px;;
+}
+.chatDiv{
+ position: relative;
+ margin-right: 0px;;
+ 
+}
+.zero{
+ /* position: absolute; */
+ color:#f08804;
+ font-size: 30px;
+ font-weight: 999;
+ z-index:999;
+ padding-bottom:10px;;
+ margin-left: 17px;
+ margin-bottom: 5px;;
+ /* right:7px;
+ bottom: 30px; */
+}
+.amazonLogo,
+.eg,
+.locationIcon,
+.EgyptText,
+.searchBox,
+.All,
+.seachIconDiv:hover{
+    cursor: pointer;
+}
+.inputSearch{
+    height: 100%;
+    width:100%;
+    border:none;
+}

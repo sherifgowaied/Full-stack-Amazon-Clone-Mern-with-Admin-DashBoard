@@ -1,0 +1,149 @@
+.spBody{
+    width: 100vw;
+     background-color: #e0e0e0;
+     overflow:hidden;
+}
+/* .inhertProducts{
+    position: absolute;
+    width: 100%;
+    
+    top:115px;
+    left:0;
+} */
+#newProduct{
+    position: absolute;
+    width: 100%;
+    
+    top:115px;
+    left:0;
+}
+.inhertNewLetterContainer{
+    position: absolute;
+    width: 100%;
+    
+    top:875px;
+    left:0;
+}
+.inhertFooter{
+    position: absolute;
+    width: 100%;
+    
+    top:1221px;
+    left:0;
+
+}
+.singleProduct{
+    
+    position:static;
+    top:101px;
+    padding:150px 0px 5px 5px;
+    left:0;
+    height:64.65vh;
+    
+    border: 1px solid black;
+    display: flex;
+   
+}
+
+.spImgContainer{
+    flex:1;
+}
+.spImg{
+    height: 50vh;
+    width:80%;
+    object-fit: cover;
+   
+}
+
+.spInfoContainer{
+flex:1;
+}
+.spFilterContainer{
+    display: flex;
+    width: 50%;
+    margin: 20px 0px;
+    align-items: center;
+}
+.spFilter{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  padding: 5px;
+}
+
+.spInfoContainer > h1{
+    font-weight: 200;
+    text-align: center;
+    font-size: 40px;
+}
+.spDesc{
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 100;
+    color:black;
+}
+.spPrice{
+    color:#85bb65;
+    font-size: 40px;
+    text-align: center;
+}
+.spSelect{
+    margin-left: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.addAmountContainer{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+}
+.spAmount{
+    width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid teal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+  margin: 0px 5px;
+
+}
+.spFilteTitle{
+    font-size: 30px;
+    font-weight: 200;
+}
+.spFilterColor{
+    width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  
+  margin: 0px 5px;
+  cursor: pointer;
+}
+
+
+.addToCartBtn{
+    cursor: pointer;
+    height: 28px;   
+    width:120px;
+    border-radius: 3px;;
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 20px;
+    border:none;
+    background-position: -10px -170px;
+    background-image: url(	https://m.media-amazon.com/images/S/sash/vfqcwUkuArEiwD2.png)
+}
+.spIcon{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+

@@ -1,0 +1,41 @@
+.navbarBlock{
+    display: block;
+    width:100%;
+    z-index: 999.9;
+}
+.allPage{
+  width:100vw;
+  overflow: hidden;
+  
+}
+.products {
+  position: static;
+  padding-top: 525px;
+  left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  color: black;
+  z-index: 9;
+  background-color: #e0e0e0;
+}
+
+/* For screen size more than 400px */
+/* @media screen and (min-width: 400px) {
+  body {
+    background-color: lightgreen;
+  }
+} */
+
+/* For screen size less than 600px */
+/* @media screen and (max-width: 600px) {
+  body {
+    background-color: lavender;
+  }
+} */
+
+/* @media screen and (max-width: 415px) {
+  body {
+    background-color: lavender;
+  }
+} */
+

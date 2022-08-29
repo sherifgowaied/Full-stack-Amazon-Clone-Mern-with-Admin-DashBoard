@@ -1,0 +1,105 @@
+.slider{
+    position: absolute;
+    /* border: 1px solid black; */
+    top:101px;
+    height:max-content;
+    width: 100%;
+    /* background-color: coral; */
+    display: flex;
+}
+.categoryItemBtnLogout{
+    cursor: pointer;
+    height: 28px;   
+    width:120px;
+    border-radius: 3px;;
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    z-index:984;
+    border:black;
+    position: absolute;
+    top:20px;
+    right:20px;
+    background-position: -10px -170px;
+    background-image: url(	https://m.media-amazon.com/images/S/sash/vfqcwUkuArEiwD2.png)
+}
+.arrow{
+    width:50px;
+    height: 50px;
+    background-color: #fff7f7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top:100px;
+    left:10;
+    /* bottom:5; */
+    /* margin: auto; */
+
+    cursor: pointer;
+    opacity: 0.5;
+    z-index: 3;
+}
+.rightArrow{
+    right:10px;
+}
+.Sliderwrapper{
+    height:100%;
+    width:100%;
+}
+
+.imgContainer{
+    
+
+    width: 100vw;
+    height: 100vh;
+    position:relative; 
+       
+}
+.imgAmazon{ 
+    clip: rect(0px,100vw,270px,0px); 
+    width:100%;
+    max-height:100%;
+    position:absolute; 
+    top:0;
+    left:0;
+     
+    /* top:50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%); */
+    
+}
+
+
+
+/* .slider{
+    position: absolute;
+    top: 400;;
+    left:0;
+    margin-top: 130px;  
+     width: 100%;
+     height:calc(100vh+200px );
+    background-color: coral;
+    display: flex;
+    
+}
+
+
+
+.imgContainer{
+    object-fit: cover;
+    margin: auto;
+    position: relative;
+    
+}
+.imgAmazon{
+    position: absolute;
+    top:101px;
+    left:30;
+    
+    width: calc(100vw);;
+    object-fit: cover;
+    height:500px;
+    /* clip: rect(0px,100vw,270px,0px); 
+}*/

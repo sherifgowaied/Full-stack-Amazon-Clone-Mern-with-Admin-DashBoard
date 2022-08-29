@@ -1,0 +1,86 @@
+.AllproductListwindow{
+    width:100vw;
+    overflow: hidden;
+}
+
+
+.ProductListAllBody{
+    display: block;
+    height:100%;
+}
+
+.productListContainer{
+    position: absolute;
+   width: 100vw;
+   display: block;
+   /* height: 100%; */
+   top:101px;
+   left:0;
+   text-align: center;
+   background-color: #e0e0e0;
+}
+.pHeader{
+   background-color:  #f08804 ;
+   opacity: 0.9;
+   border-radius: 5px;;
+   letter-spacing: 3px;
+}
+.filterContainer{
+   display: flex;
+   justify-content: space-between;
+}
+.filter{
+    margin: 20px;
+}
+.filterText{
+    font-size: 20px;
+  font-weight: 600;
+  margin-right: 20px;
+ 
+}
+.filterSelect{
+    padding: 10px;
+    border-radius: 5px;;
+  margin-right: 20px;
+
+}
+.ProductFromHome{
+    position: absolute;
+    width: 100%;
+    
+    top:2px;
+    left:0;
+}
+/* .inhertProducts{
+    position: absolute;
+    width: 100%;
+    
+    top:115px;
+    left:0;
+} */
+/* .inhertNewLetterContainer{
+    position: absolute;
+    width: 100%;
+    
+    top:875px;
+    left:0;
+} */
+/* .inhertFooter{
+    position: absolute;
+    width: 100%;
+    
+    top:1221px;
+    left:0;
+
+} */
+.products{
+    position: static;
+    padding-top: 225px;
+   
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    z-index: 9;
+    background-color: #e0e0e0;
+}

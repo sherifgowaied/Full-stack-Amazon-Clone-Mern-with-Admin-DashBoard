@@ -1,0 +1,18 @@
+.goToHome{
+    cursor: pointer;
+    background-position: -10px -170px;
+    background-image: url(	https://m.media-amazon.com/images/S/sash/vfqcwUkuArEiwD2.png);
+    transform: scale(1.5);
+    
+   border-radius: 3px;
+   border:none;
+    color: #000;
+    font-size: 12px;
+    font-weight: 200;
+}
+.successImg{
+    width:300px;
+    margin:20px;
+    background-color: transparent;
+   
+}

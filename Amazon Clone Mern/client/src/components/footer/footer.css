@@ -1,0 +1,98 @@
+.footer{
+    position: static;
+    width:100%;
+    height:45vh;
+    top:2040px;
+    left:0;
+    display: flex;;
+    align-items: center;
+    background-color: #131A22;;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color:white;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    
+}
+.fdesc{
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-left: 20px;;
+}
+.socialContainer{
+    
+    display: flex;
+    margin-top: 30px;;
+    
+}
+.socialIcon{
+    margin-left: 40px;;
+    transform: scale(2);
+}
+.footerLeft{
+    flex:1;
+    display: flex;
+    padding:30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footerCenter{
+    flex:1;
+    display: flex;
+    padding:10px;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.footerRight{
+    flex:1;
+    display: flex;
+    padding:10px;
+    flex-direction: column;
+    justify-content: center;
+}
+.fList{
+    margin-top: 20px;;
+    height:50%;
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.fCTitle {
+    margin-bottom: 20px;
+    color: #f08804;
+}
+ .fLTitle{
+    margin-bottom: 65px;
+    color: #f08804;
+ }
+ .fRTitle{
+    margin-bottom: 100px;
+    color: #f08804;
+ }
+.footerRight{
+    margin-bottom: 50px;;
+    text-align: center;
+}
+/* .contactItem{
+    
+} */
+.fImg{
+    margin-top: 20px;
+    margin-left: 80px;
+    width: 50%;
+}
+.contactItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;;
+}
+.fmiddle{
+    margin-right: 100px;;
+}
+.fsmiddle{
+    margin-right: 110px;;
+}

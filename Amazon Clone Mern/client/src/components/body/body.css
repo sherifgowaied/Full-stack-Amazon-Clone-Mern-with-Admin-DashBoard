@@ -1,0 +1,8 @@
+.items{
+    position: absolute;
+    top: 372px;
+    width: 100vw;
+    height:fit-content max-content; 
+    background-color: #e0e0e0;
+    z-index: 5;
+}
