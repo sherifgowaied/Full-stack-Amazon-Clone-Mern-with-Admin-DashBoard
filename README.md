@@ -28,13 +28,16 @@ https://user-images.githubusercontent.com/91483223/189183071-594220bb-6040-4e2e-
 
 
 #### App supports
-* 
-*
-*
-*
-*
+* allow users put/remove items in/from Cart
+* Determining the count , size , color
+* Details about Product , price 
+* Checkout Proccesing system 
+* Stripe Payment
+* OrderId for Refund Request and Reference
 * Redux Pesit Root Cashing storage (User , Cart)
-*
-*
-*
-
+* Authentication System for Users and Admins 
+* AdminDashBoard For CRUD operation
+* data visualization analysis About Sales in each Month and Total Sales
+* Reports About Lastest Users
+* Firebase For Media for Fast Database access
+* Post-Man for Testing Apis
