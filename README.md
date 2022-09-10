@@ -35,9 +35,20 @@ https://user-images.githubusercontent.com/91483223/189183071-594220bb-6040-4e2e-
 * Stripe Payment
 * OrderId for Refund Request and Reference
 * Redux Pesit Root Cashing storage (User , Cart)
-* Authentication System for Users and Admins 
+* Authentication System for Users and Admins
+* JWT tokens  
 * AdminDashBoard For CRUD operation
+* Edit , create , update , delete , getall , get through graphical user interface
 * data visualization analysis About Sales in each Month and Total Sales
 * Reports About Lastest Users
 * Firebase For Media for Fast Database access
 * Post-Man for Testing Apis
+
+# How to Run
+1- in Api file make .env file 
+* MONGO_URL 
+* SECRET_KEY
+* JWT_SECRET
+* STRIPE_KEY
+2- in Client file make .env
+* REACT_STRIPE_KEY
