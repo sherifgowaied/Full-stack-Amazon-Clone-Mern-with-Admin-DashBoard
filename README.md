@@ -24,7 +24,7 @@ https://user-images.githubusercontent.com/91483223/189183071-594220bb-6040-4e2e-
 ![Screen Shot 2022-08-10 at 7 06 39 AM](https://user-images.githubusercontent.com/91483223/189183228-43c90725-ad56-4160-8742-eb1fefde5384.png)
 #### Admin Pannel Home Page
 ![Screen Shot 2022-08-10 at 7 31 01 AM](https://user-images.githubusercontent.com/91483223/189183279-dfc1bb00-1a0d-4994-bbcd-c9559f2457f0.png)
-#### OrderId
+#### OrderId for Refund Requests and Reference
 ![Screen Shot 2022-08-10 at 7 14 01 AM](https://user-images.githubusercontent.com/91483223/189183705-11032ce7-3ead-4f78-8aca-ec3e4a26a81f.png)
 #### Register Page
 ![Screen Shot 2022-08-10 at 7 46 01 AM](https://user-images.githubusercontent.com/91483223/189185264-5ca67cc4-4ae8-422a-b854-7611e4850918.png)
@@ -54,9 +54,9 @@ https://user-images.githubusercontent.com/91483223/189183071-594220bb-6040-4e2e-
 * MONGO_URL 
 * SECRET_KEY
 * JWT_SECRET
-* STRIPE_KEY
-2- in Client file make .env</br>
-* REACT_STRIPE_KEY
+* STRIPE_KEY</br>
+2- in Client file make .env
+* REACT_STRIPE_KEY</br>
 3- make a Firebase Account for Uploading Media file for admin DashBoard</br>
 4- in each File Api, Client, Admin go in terminal</br>
 ````
